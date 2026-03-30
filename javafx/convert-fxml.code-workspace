@@ -1,0 +1,67 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit",
+			"source.fixAll": "explicit"
+		},
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.referencesCodeLens.enabled": true,
+		"java.completion.favoriteStaticMembers": [
+			"java.util.Objects.*",
+			"org.junit.jupiter.api.Assertions.*",
+		],
+		"java.cleanup.actions": [
+			"addDeprecated",
+			"addFinalModifier",
+			"addOverride",
+			"instanceofPatternMatch",
+			"invertEquals",
+			"lambdaExpression",
+			"lambdaExpressionFromAnonymousClass",
+			"organizeImports",
+			// "qualifyMembers",
+			// "qualifyStaticMembers",
+			"renameFileToType",
+			"renameUnusedLocalVariables",
+			"stringConcatToTextBlock",
+			"switchExpression",
+			"tryWithResource",
+			"useSwitchForInstanceofPattern"
+		],
+		"xml.format.spaceBeforeEmptyCloseTag": false,
+		"xml.format.enforceQuoteStyle": "preferred",
+		"xml.format.maxLineWidth": 0,
+		"maven.view": "hierarchical",
+		"maven.terminal.useJavaHome": true,
+		"maven.terminal.favorites": [
+			{
+				"alias": "Check for minor updates",
+				"command": "versions:display-property-updates -U -DallowSnapshots=false -DallowMinorUpdates=true -DallowMajorUpdates=false"
+			},
+			{
+				"alias": "Check for major updates",
+				"command": "versions:display-property-updates -U -DallowSnapshots=false -DallowMinorUpdates=true -DallowMajorUpdates=true"
+			},
+			{
+				"alias": "Create runtime image (jlink)",
+				"command": "clean package -Pjlink"
+			},
+			{
+				"alias": "Create app image (jpackage)",
+				"command": "clean package -Pjpackage"
+			}
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"vscjava.vscode-java-pack",
+			"redhat.vscode-xml"
+		]
+	}
+}
