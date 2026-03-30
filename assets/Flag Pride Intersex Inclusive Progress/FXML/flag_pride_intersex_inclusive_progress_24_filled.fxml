@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
+<Group xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <Rectangle width="24" height="24" stroke="transparent" fill="transparent"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M4 4H20V6.5H4V4Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M4 6H20V8.5H4V6Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M4 8H20V10.5H4V8Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M4 10H20V12.5H4V10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M4 12H20V14H4V12Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M4 13.5H20V15.25H4V13.5Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M16 10L10 4H8V15.5H10.5L16 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M14 10L8 4H6V15.5H8.5L14 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M13 10L7 4H5V15.5H7.5L13 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M12 10L6 4H4V15.5H6.5L12 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M10 10L4 4V16L10 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M11 10L5 4H4V16H5L11 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M9 10C9 8.89543 8.10457 8 7 8C5.89543 8 5 8.89543 5 10C5 11.1046 5.89543 12 7 12C8.10457 12 9 11.1046 9 10ZM6 10C6 9.44772 6.44772 9 7 9C7.55228 9 8 9.44772 8 10C8 10.5523 7.55228 11 7 11C6.44772 11 6 10.5523 6 10Z"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M10.5 3H3.75C3.33579 3 3 3.33578 3 3.75V21.25C3 21.6642 3.33579 22 3.75 22C4.16421 22 4.5 21.6642 4.5 21.25L4.5 16.5H11L11.0303 16.5303L11.0607 16.5H20.25C20.6642 16.5 21 16.1642 21 15.75V3.75C21 3.33578 20.6642 3 20.25 3H10.5607L10.5303 2.96967L10.5 3ZM9.93934 4.5L15.4393 10L10.4393 15H4.5V4.5H9.93934ZM12.0607 4.5H19.5V15H12.5607L17.0303 10.5303C17.3232 10.2374 17.3232 9.76256 17.0303 9.46967L12.0607 4.5Z"/>
+</Group>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
+<Group xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <Rectangle width="16" height="16" stroke="transparent" fill="transparent"/>
+    <SVGPath styleClass="fluent-icon-filled" content="M1.73223 6.23317C0.755924 7.20948 0.755921 8.79239 1.73223 9.7687L6.23317 14.2696C7.20948 15.2459 8.79239 15.2459 9.7687 14.2696L14.2696 9.7687C15.2459 8.79239 15.2459 7.20948 14.2696 6.23317L9.7687 1.73223C8.79239 0.755924 7.20948 0.755921 6.23317 1.73223L1.73223 6.23317Z"/>
+</Group>
